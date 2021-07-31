@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - MAGIC EXPERIENCE</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="Multimedia/logo.png.png" alt="MAGIC EXPERIENCE LOGO" width="50" height="50" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="losparques.html">LOS PARQUES</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#curiosidadesDisney">CURIOSIDADES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="armatuviaje.html">ARMA TU VIAJE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!-- FORMULARIO DE CONTACTO -->
+        <form action="#">
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <div>
+                    <label for="nombreyapellido">Nombre y Apellido:</label>
+                    <input type="text" name="nombreyapellido" placeholder="Inserte su nombre y apellido" required>
+                </div>
+                <div>
+                    <label for="nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" name="nacimiento">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Inserte su casilla de email" required>
+                </div>
+                <div></div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" placeholder="Inserte su Contraseña" maxlength="10" minlength="5" required>
+                </div>
+                <div>
+                    <label for="genero">Sexo:</label>
+                    <input type="radio" value="femenino" name="genero">Femenino
+                    <input type="radio" value="masculino" name="genero">Masculino
+                    <input type="radio" value="prefieronodecirlo" name="genero">Prefiero no decirlo
+                </div>
+                <div>
+                    <label for="color">Selecciona tu Color Favorito</label>
+                    <select name="color">
+                        <option value="azul">Azul</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="amarillo">Amarillo</option>
+                        <option value="verde">Verde</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comentarios">Dejá tus Comentarios</label>
+                    <br>
+                    <textarea name="comentarios" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <div>
+                    <label for="terminosycondiciones">Acepto Términos y Condiciones</label>
+                    <input type="checkbox" name="terminosycondiciones" required>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar mi Formulario">
+                </div>
+                <div>
+                    <input type="reset" value="Limpiar mi Formulario">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="infoCreador">
+            <h4>Página creada por María Noelí Des</h4>
+        </div>
+        <div class="redesSociales">
+            <a href="#"><img src="multimedia/face.gif" alt="logo facebook"></a>
+            <a href="#"><img src="multimedia/insta.gif" alt="logo instagram"></a>
+            <a href="#"><img src="multimedia/mail.gif" alt="logo mail"></a>
+        </div>
+    </footer>
+
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

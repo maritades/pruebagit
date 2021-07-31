@@ -1,0 +1,334 @@
+*   {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body    {
+    color: rgb(36, 6, 31);
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+header  {
+    color: steelblue;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+/* HOME */
+
+
+img {
+    margin: 2px;
+    padding: 1px;
+}
+h1  {
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+h3{
+    font-size: 18px;
+    text-align: center;
+}
+main h3{
+    color: #24061f;
+
+}
+.imagenHorizontal{
+    width: 100%;
+}
+.imagenHorizontal:hover{
+    filter: sepia(60%);
+}
+main p   {
+    color: indianred;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+section p   {
+    color: indianred;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+/* CURIOSIDADES */
+
+.curiosidadesDisney {
+    text-align: center;
+    padding: 10px;
+
+}
+#curiosidadesDisney h3  {
+    color: #24061f;
+    font-size: 30px;
+    font-style: 'Raleway', sans-serif;
+    
+}
+
+.containerCuriosidadesImg{
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+.containerCuriosidadesImg div{
+    display: inline-block;
+    width: 300px;
+    margin: 5px;
+
+}
+h2  {
+    color: rebeccapurple;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3px;
+    padding: 3px;
+}
+h3  {
+    color: slateblue;
+    font-family: 'Raleway', sans-serif;
+    margin: 3px;
+    padding: 3px;
+}
+
+/* LOS PARQUES */
+
+.tablaParques{
+    margin: 5px;
+}
+.losParques {
+    color: teal;
+}
+.carrousel  {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* ARMA TU VIAJE */
+
+ol  {
+    color: rgb(12, 6, 17);
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: square;
+    font-size: 1rem;
+}
+.contenedorArmaTuViaje  {
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.headerArmaTuViaje  {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logoArmaTuViaje    {
+    margin: 3px;
+}
+.tituloArmaTuViaje  {
+    margin-left: 300px;
+    padding-top:18px;
+}
+.mainArmaTuViaje    {
+    background-color: rgb(241, 211, 236);
+    padding: 0.8rem;
+    width: 70%;
+}
+.imagenListado img {
+    vertical-align: top;
+    width: 100%;
+}
+.listado    {
+    margin: 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.costadoArmaTuViaje {
+    background-color: rgb(195, 236, 236);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.imagenCostado img {
+    vertical-align: top;
+    width: 100%;
+    padding: 20px;
+}
+.contenidoArmaTuViaje   p{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 20px;
+}
+
+/* NOSOTROS */
+
+.agentes  {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.contenedorNosotros {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        "hijoImagen hijoTabla"
+        "hijoImagen hijoInfo";
+}
+.hijoImagen {
+    grid-area: hijoImagen;
+}
+.hijoImagen img {
+    width: auto;
+}
+.hijoTabla  {
+    grid-area: hijoTabla;
+    margin-top: 30px;
+    padding: 5px;
+}
+.hijoInfo   {
+    grid-area: hijoInfo;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+tr  {
+    color: darkcyan;
+}
+.hijoImagen:hover{
+    transform: rotateY(30deg);
+}
+/* ARMA TU VIAJE TEMPORADAS */
+
+.armaTuViaje    {
+    margin: 10px;
+    padding: 10px;
+}
+.temporadaBaja {
+    color: seagreen;
+    margin-left: 10px;
+    
+}
+.temporadaMedia     {
+    color: rgb(205, 190, 50);
+    margin-left: 10px;
+}
+.temporadaAlta {
+    color: tomato;
+    margin-left: 10px;
+}
+table   {
+    text-align: center;
+    margin-left: 10px;
+}
+.listaViñetas   {
+    font-size: small;
+    list-style-type: none;
+    
+}
+.tablaNosotros{
+    border: #24061f solid 1px;
+}
+.tablaNosotros tr{
+    border: #24061f solid 1px;
+}
+.tablaNosotros tr th{
+    border: #24061f solid 1px;
+    padding: 5px;
+}
+.tablaNosotros tr td{
+    border: #24061f solid 1px;
+    padding: 5px;
+}
+/* CONTACTO */
+
+legend  {
+    color: violet;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+form  {
+    color: white;
+    font-size: smaller;
+    background-image: url(multimedia/disneyglobos.jpg);
+    margin: 3px;
+    padding: 3px;
+    
+}
+footer  {
+    width: 100%;
+    margin-top: 20px 0;
+    color: rgb(99, 51, 91);
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    opacity: .7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: solid 1px rgb(99, 51, 91);
+}
+.redesSociales a    {
+    color: rgb(99, 51, 91);
+    margin-left: 20px;
+    width: 30px;
+}
+.redesSociales img  {
+    width: 40px;
+    opacity: .7;
+}
+.infoCreador h4    {
+    font-size: 15px;
+    color: #24061f;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+/* QUERRIES */
+@media only screen and (max-width: 576px){
+    #curiosidadesDisney h3  {
+        font-size: 20px;
+        
+    }
+    .mainArmaTuViaje    {
+        width: 100%;
+    }
+    .costadoArmaTuViaje {
+        width: 100%;
+    }
+    .contenedorNosotros {
+        padding: 10px;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+            "hijoImagen"
+            "hijoTabla"
+            "hijoInfo";
+    } 
+    .redesSociales a    {
+        width: 15px;
+    }
+    .redesSociales img  {
+        width: 25px;
+    }
+    .infoCreador h4    {
+        font-size: 10px;
+    }
+    
+
+}
